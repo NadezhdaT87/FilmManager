@@ -6,11 +6,11 @@ public class FilmManager {
     private int limit;
 
     public FilmManager(int limit) {
-        this.limit = 5;
+        this.limit = limit;
     }
 
     public FilmManager() {
-        this.limit = 7;
+        this.limit = 5;
     }
     public void addFilm (String film){
         String [] tmp = new String[films.length+1];
